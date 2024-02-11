@@ -1,0 +1,4 @@
+amends "default-values.pkl"
+
+name = "hello"
+part = 10

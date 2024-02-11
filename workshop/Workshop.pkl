@@ -1,0 +1,35 @@
+module Workshop
+
+class Event {
+  name : String
+  year : Int
+}
+
+class Session {
+    date : String
+    time : Duration
+}
+
+class Agenda {
+    name : String
+    part : Int
+    duration : Duration
+}
+
+title : String
+interactive : Boolean
+seats : Int
+occupancy : Float
+duration : Duration
+`abstract` : String
+
+event: Event
+
+instructors : Listing<String>
+
+sessions : Listing<Session>
+
+assistants : Mapping<String, String>
+
+agenda : Mapping<String, Agenda>
+

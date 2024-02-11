@@ -1,0 +1,26 @@
+birds {
+  "Pigeon"
+  "Parrot"
+  "Barn owl"
+  "Falcon"
+}
+
+habitats {
+  ["Pigeon"] = "Streets"
+  ["Parrot"] = "Parks"
+  ["Barn owl"] = "Forests"
+  ["Falcon"] = "Mountains"
+}
+
+mixedObject {
+  name = "Pigeon"
+  lifespan = 8
+  "wing"
+  "claw"
+  ["wing"] = "Not related to the _element_ \"wing\""
+  42
+  extinct = false
+  [false] {
+    description = "Construed object example"
+  }
+}
